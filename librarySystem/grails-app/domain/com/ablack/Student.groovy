@@ -14,7 +14,9 @@ String studentID
 
 Course courseTitle
 
-static hasMany=[nameOfBuilding:Library]
+Library nameOfBuilding
+
+static hasMany=[bookTitle:Book, reviewTitle:BookReview]
     static constraints = {
 
 	studentName null:false, blankable:false
@@ -28,5 +30,7 @@ static hasMany=[nameOfBuilding:Library]
 	studentID null:false, blankable:false, unique:true, maxSize: 5
 	
 	courseTitle blank:false, nullable:false
+
+	nameOfBuilding blank:false, nullable:false
     }
 }

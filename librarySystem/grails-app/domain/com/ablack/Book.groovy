@@ -18,7 +18,10 @@ String student
 
 Boolean overdue
 
-static hasMany=[nameOfBuilding:Library]
+Library nameOfBuilding
+
+static hasMany=[reviewTitle:BookReview]
+
     static constraints = {
 
 	bookTitle blank:false, nullable:false
@@ -36,5 +39,7 @@ static hasMany=[nameOfBuilding:Library]
 	student blank:false, nullable:false
 
 	overdue blank:false, nullable:false
+
+	nameOfBuilding blank:false, nullable:false
     }
 }

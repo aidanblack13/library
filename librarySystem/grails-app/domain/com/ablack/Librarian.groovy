@@ -5,7 +5,7 @@ class Librarian {
 String librarianName
 
 String librarianEmail
-
+ 
 String office
 
 String username
@@ -14,7 +14,7 @@ String password
 
 int telephone
 
-String library
+Library nameOfBuilding
 
     static constraints = {
 	librarianName blank:false, nullable:false
@@ -29,6 +29,6 @@ String library
 
 	telephone blank:false, nullable:false, minSize: 4, maxSize: 25
 
-	library blank:false, nullable:false
+	nameOfBuilding blank:false, nullable:false
     }
 }
