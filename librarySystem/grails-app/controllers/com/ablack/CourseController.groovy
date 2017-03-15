@@ -2,5 +2,5 @@ package com.ablack
 
 class CourseController {
 
-    def index() { }
+    def scaffold=Course
 }

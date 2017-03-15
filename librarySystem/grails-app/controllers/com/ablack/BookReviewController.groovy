@@ -2,5 +2,5 @@ package com.ablack
 
 class BookReviewController {
 
-    def index() { }
+    def scaffold=BookReview
 }
