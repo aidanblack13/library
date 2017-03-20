@@ -31,4 +31,10 @@ Library nameOfBuilding
 
 	nameOfBuilding blank:false, nullable:false
     }
+
+String toString(){
+return librarianName
+
+}
+
 }
