@@ -14,11 +14,19 @@ Date dateBorrowed
 
 Date returnDate
 
-String student
+Student studentName
 
 Boolean overdue
 
+Double daysLate 
+
 Library nameOfBuilding
+
+Double calculateDaysLate(){
+
+2*daysLate
+
+}
 
 static hasMany=[reviewTitle:BookReview]
 

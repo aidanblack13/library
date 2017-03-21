@@ -15,8 +15,27 @@ class LibrarianSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
-    }
+    void nullLibrarianName() {
+        
+	when:"the librarianName to be null"
+        
+	def noData=new Librarian(librarianName:null)
+
+	then: "data is null"
+
+	noData.librarianName==null
+   }
+
+   void intData() {
+
+	when: "int data should be allowed into telephone"
+
+	def intTest=new Librarian(LibrarianName: 'Tim Power', telephone: 0122656)
+
+	then: "data should be allowed "
+
+	intTest.telephone==0122656
+
+}
+
 }

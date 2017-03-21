@@ -10,9 +10,17 @@ String leader
 
 String department
 
+Double courseFee
+
 String description
 
 String studyMode
+
+Double totalFee () {
+
+3*courseFee
+
+}
 
 static hasMany=[studentName:Student]
     static constraints = {
@@ -25,7 +33,7 @@ static hasMany=[studentName:Student]
 
 	department blank:false, nullable:false
 
-	description blank:false, nullable:false, maxSize:2000, widget:'textarea'
+	description blank:false, nullable:false,minSize:5, maxSize:2000, widget:'textarea'
 
 	studyMode blank:false, nullable:false
     }
