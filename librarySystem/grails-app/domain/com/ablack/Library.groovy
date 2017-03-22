@@ -25,4 +25,11 @@ static hasMany=[librarianName:Librarian, bookTitle:Book, studentName:Student]
 
 	studySpaces blank:false, nulllable:false, widger:'textarea'
     }
+
+String toString() {
+
+return nameOfBuilding
+
+} 
+
 }

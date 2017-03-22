@@ -17,17 +17,14 @@ Date returnDate
 Student studentName
 
 Boolean overdue
-
-Double daysLate 
-
+ 
 Library nameOfBuilding
 
-Double calculateDaysLate(){
+String toString() {
 
-2*daysLate
+return bookTitle
 
-}
-
+} 
 static hasMany=[reviewTitle:BookReview]
 
     static constraints = {
@@ -44,10 +41,13 @@ static hasMany=[reviewTitle:BookReview]
 
 	returnDate blank:false, nullable:false
 
-	student blank:false, nullable:false
+	studentName blank:false, nullable:false
 
 	overdue blank:false, nullable:false
 
 	nameOfBuilding blank:false, nullable:false
     }
+
+
+
 }

@@ -19,18 +19,25 @@ Library nameOfBuilding
 static hasMany=[bookTitle:Book, reviewTitle:BookReview]
     static constraints = {
 
-	studentName null:false, blankable:false
+	studentName nullable:false, blank:false
 
-	studentEmail null:false, blankable:false, email:true
+	studentEmail nullable:false, blank:false, email:true
 
-	username null:false, blankable:false, unique:true
+	username nullable:false, blank:false, unique:true
 
-	password null:false, blankable:false, password:true
+	password nullable:false, blank:false, password:true
 
-	studentID null:false, blankable:false, unique:true, maxSize: 5
+	studentID nullable:false, blank:false, unique:true, maxSize: 5
 	
 	courseTitle blank:false, nullable:false
 
 	nameOfBuilding blank:false, nullable:false
     }
+
+String toString() {
+
+return studentName
+
+} 
+
 }

@@ -37,4 +37,10 @@ static hasMany=[studentName:Student]
 
 	studyMode blank:false, nullable:false
     }
+String toString() {
+
+return courseTitle
+
+} 
+
 }

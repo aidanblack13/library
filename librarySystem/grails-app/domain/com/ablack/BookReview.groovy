@@ -6,7 +6,7 @@ String reviewTitle
 
 Book bookTitle
 
-Date dateCreated
+Date dateReviewed
 
 Student studentName
 
@@ -18,10 +18,17 @@ String review
 
 	bookTitle blank:false, nullable:false
 
-	dateCreated blank:false, nullable:false
+	dateReviewed blank:false, nullable:false
 
-	studentName null:false, blankable:false
+	studentName nullable:false, blank:false
 
-	review null:false, blankable:false, maxSize:5000, widget: 'textarea'
+	review nullable:false, blank:false, maxSize:5000, widget: 'textarea'
     }
+
+String toString() {
+
+return reviewTitle
+
+} 
+
 }
