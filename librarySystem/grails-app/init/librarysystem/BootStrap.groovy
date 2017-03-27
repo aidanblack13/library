@@ -3,7 +3,7 @@ package com.ablack
 class BootStrap {
 
     def init = { servletContext ->
-	def howard = new Library(
+	/*def howard = new Library(
 	nameOfBuilding: 'Howard',
 	address: '67 Test Lane',
 	openingHours: '7 - 19',
@@ -120,7 +120,7 @@ class BootStrap {
 	dateReviewed: new Date('13/05/2016'),
 	studentName: timSmith,
 	review: 'Top Notch'
-	).save()
+	).save()*/
 	
 	
 	
