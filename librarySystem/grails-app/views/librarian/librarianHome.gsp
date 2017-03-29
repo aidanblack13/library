@@ -37,7 +37,7 @@
 
 		<button type="button" class="btn-btn-success">
 
-			<g:link controller="book" action="create">Book<g:link>
+			<g:link controller="book" action="create">Book</g:link>
 
 		</button>
 
@@ -83,7 +83,7 @@
 
 		<button type ="button" class="btn-btn-success">
 
-			<g:link controller="library" action="create">Library<g:link>
+			<g:link controller="library" action="create">Library</g:link>
 
 		</button>
 

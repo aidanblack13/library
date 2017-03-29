@@ -6,7 +6,7 @@ String studentName
 
 String studentEmail
 
-String username
+String userName
 
 String password
 
@@ -23,7 +23,7 @@ static hasMany=[bookTitle:Book, reviewTitle:BookReview]
 
 	studentEmail nullable:false, blank:false, email:true
 
-	username nullable:false, blank:false, unique:true
+	userName nullable:false, blank:false, unique:true
 
 	password nullable:false, blank:false, password:true
 

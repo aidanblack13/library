@@ -14,7 +14,7 @@
          
 	<div class="row">
 		
-			<asset:image src="book.jpg"/>
+			<asset:image src="reading.png"/>
             
 		</div>
            

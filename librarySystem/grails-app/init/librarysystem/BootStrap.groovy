@@ -15,7 +15,7 @@ class BootStrap {
 	librarianName: 'John Smith',
 	librarianEmail: 'john@test.com',
 	office: 'A001',
-	username: 'JSmith',
+	userName: 'JSmith',
 	password: 'john',
 	telephone: 8670,
 	nameOfBuilding: howard
@@ -35,7 +35,7 @@ class BootStrap {
 	def aidanBlack = new Student(
 	studentName: 'Aidan Black',
 	studentEmail: 'aidan@test.com',
-	username: 'ABlack',
+	userName: 'ABlack',
 	password: 'aidan',
 	studentID: 'AB001',
 	courseTitle: computing,
@@ -75,7 +75,7 @@ class BootStrap {
 	librarianName: 'Max Power',
 	librarianEmail: 'max@test.com',
 	office: 'A004',
-	username: 'MPower',
+	userName: 'MPower',
 	password: 'max',
 	telephone: 8541,
 	nameOfBuilding: owen
@@ -95,7 +95,7 @@ class BootStrap {
 	def timSmith = new Student(
 	studentName: 'Tim Smith',
 	studentEmail: 'tim@test.com',
-	username: 'TSmith',
+	userName: 'TSmith',
 	password: 'tim',
 	studentID: 'TS001',
 	courseTitle: drama,
