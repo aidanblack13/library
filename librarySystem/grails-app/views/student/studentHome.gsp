@@ -56,6 +56,20 @@
 
 	</div>
 
+	<div class ="second">
+
+		<h3>Book Search</h3>
+
+		<p> search for a book</p>
+
+		<button type ="button" class="btn-btn-success">
+
+			<g:link controller="book" action="bookSearch">Book Search</g:link>
+
+		</button>
+
+		</div>
+
 </div>
 
 </div>
