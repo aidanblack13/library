@@ -36,7 +36,7 @@
 		
 		<button type="button" class="btn-btn-success">
 
-			<g:link controller="bookReview" action="list">BookReview</g:link>
+			<g:link controller="bookReview" action="index">BookReview</g:link>
 
 		</button>
 
@@ -50,7 +50,7 @@
 		
 		<button type="button" class="btn-btn-success">
 
-			<g:link controller="book" action="list">Book</g:link>
+			<g:link controller="book" action="index">Book</g:link>
 
 		</button>
 

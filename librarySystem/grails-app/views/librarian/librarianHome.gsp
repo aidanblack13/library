@@ -89,6 +89,20 @@
 
 		</div>
 
+	<div class ="second">
+
+		<h3>Student Search</h3>
+
+		<p> search for a student</p>
+
+		<button type ="button" class="btn-btn-success">
+
+			<g:link controller="student" action="studentSearch">Student Search</g:link>
+
+		</button>
+
+		</div>
+
 
 </div>
 
